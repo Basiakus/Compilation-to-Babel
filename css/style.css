@@ -1,0 +1,71 @@
+#app {
+	margin: 0;
+}
+.contactForm {
+	padding: 20px;
+	background-color: blue;
+}
+form.contactForm input {
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+	font-size: 28px;
+	transform: 0.5s;
+}
+button {
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+	font-size: 28px;
+	color: white;
+	background-color: #6699ff;
+	border: none;
+	transition: 0.3s;
+}
+button:hover {
+	color: #6699ff;
+	background-color: white;
+}
+.app {
+	box-sizing: border-box;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: black;
+	padding: 10px;
+}
+.contactsList {
+	padding: 30px;
+	background-color: red;
+	color: white;
+	box-sizing: border-box;
+}
+.contactLabel {
+	float: left;
+	font-size: 22px;
+	color: black;
+	margin-right: 30px;
+	margin-top: 60px;
+	display: inline-block;
+}
+.contactEmail {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 60px;
+	float: right;
+}
+.contactItem {
+	background-color: yellow;
+	margin-top: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+}
+.contactImage {
+	width: 15%;
+}
