@@ -3,9 +3,8 @@ render: function() {
         return (<Contact item={contact} key={contact.id}></Contact>)
     });
 
-    return (<ul className={'contactList'}> 
-        {contacts} 
-      </ul>
+    return (
+    <ul className={'contactList'}>{contacts}</ul>
     );
   }
 });
