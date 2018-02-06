@@ -1,10 +1,11 @@
-render: function() {
-    var contacts = this.props.items.map(function(contact) {
-        return (<Contact item={contact} key={contact.id}></Contact>)
-    });
-
+var Contact = React.createClass({
+  propTypes: {
+    item: React.PropTypes.array.isRequired
+  },
+ 
+  render: function() {
     return (
-    <ul className={'contactList'}>{contacts}</ul>
+      <ul className={'contactList'}>{contacts}</ul>
     );
   }
 });
